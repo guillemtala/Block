@@ -148,6 +148,12 @@ img {
     padding: 0.5vw;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    padding: 3vw;
+}
+
 @media only screen and (max-width: 600px) {
     /*reglas*/
     /* column-3 pasará de tener 33.33% a 100% */
