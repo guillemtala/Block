@@ -73,6 +73,25 @@ body {
     float: left;
 }
 
+.texto1 h2 {
+    font-size: 2vw;
+}
+
+.texto1 p {
+    font-size: 1vw;
+}
+
+.texto1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+#section2 {
+    background-color: rgb(227, 227, 227);
+    padding: 1vw;
+}
+
 
 /* Otras clases */
 
@@ -118,34 +137,47 @@ img {
 
 #foto4 {
     background-image: url("../img/felipe-simo-HBop_t9V9kM-unsplash.jpg");
-    height: 40vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
 }
 
 #foto5 {
     background-image: url("../img/alberto-frias-nb8W3ifJTSw-unsplash.jpg");
-    height: 40vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
 }
 
 #foto6 {
     background-image: url("../img/tyler-clemmensen-Zs_L-plsZzg-unsplash.jpg");
-    height: 40vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
 }
 
 #foto7 {
     background-image: url("../img/kevin-bhagat-3cLpiv8h5so-unsplash.jpg");
-    height: 40vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
 }
 
 .padding-s {
     padding: 0.5vw;
+}
+
+#prefooter {
+    background-color: #495057;
+    color: white;
+}
+
+#prefooter h3 {
+    font-size: 2vw;
+}
+
+#prefooter p {
+    font-size: 1vw;
 }
 
 footer {
@@ -166,5 +198,41 @@ footer {
     }
     #caja-10 {
         width: 100%;
+    }
+    .texto1 h2 {
+        font-size: 7vw;
+        padding-left: 1.5vw;
+    }
+    .texto1 p {
+        font-size: 4vw;
+    }
+    .texto1 a {
+        font-size: 4vw;
+    }
+    .padding-s {
+        padding: 2vw;
+    }
+    h3 {
+        font-size: 7vw;
+        padding: 2vw;
+    }
+    p {
+        font-size: 6vw;
+        padding: 2vw;
+    }
+    #lambo {
+        height: 25vh;
+    }
+    #mercedes {
+        height: 25vh;
+    }
+    #ford {
+        height: 25vh;
+    }
+    #prefooter h3 {
+        font-size: 5.5vw;
+    }
+    #prefooter p {
+        font-size: 4vw;
     }
 }
