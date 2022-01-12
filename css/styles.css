@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 
@@ -7,6 +8,11 @@ html {
 
 p {
     font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 h1 {
@@ -94,6 +100,21 @@ body {
 
 
 /* Otras clases */
+
+.black-white {
+    background-color: grey;
+    color: white;
+}
+
+.column-nav {
+    width: 25%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
 
 header {
     height: 100vh;
@@ -234,5 +255,12 @@ footer {
     }
     #prefooter p {
         font-size: 4vw;
+    }
+    .column-nav {
+        width: 100%;
+        float: left;
+    }
+    .column-75 {
+        width: 100%;
     }
 }
